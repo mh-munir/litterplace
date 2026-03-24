@@ -50,6 +50,11 @@ node_modules/
 .env
 .env.local
 .env.*.local
+node_modules/
+.next/
+.env
+*.zip
+*.mp4
 
 # logs
 npm-debug.log*
