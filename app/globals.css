@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* In globals.css */
+:root {
+  --bg-main: url('/images/bg-image.jpg');
+  --bg-litterOoxOdorControl: url('/images/litter-box-odor-control.png');
+  --bg-bestAautomaticLitterBox: url('/images/best-automatic-litter-box.jpg');
+  --bg-bestLitterBoxMultipleCats: url('/images/best-litter-box-multiple-cats.jpg');
+  --bg-hiddenLitterBoxFurniture: url('/images/hidden-litter-box-furniture.jpg');
+  --bg-litterBoxSmallApartment: url('/images/litter-box-small-apartment.jpg');
+  --bg-stopLitterTracking: url('/images/stop-litter-tracking.jpg');
+}
