@@ -2,8 +2,8 @@ import EmailForm from "@/components/EmailForm";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Litter Box Odor Control | litterplace.com",
-  description: "Learn about our effective litter box odor control solutions",
+  title: "Best Automatic Litter Boxes | litterplace.com",
+  description: "Learn about our effective Best Automatic Litter Box solutions",
 };
 
 const BestAutomaticLitterBox = () => {

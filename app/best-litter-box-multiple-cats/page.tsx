@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Litter Box for Multiple Cats | litterplace.com",
-  description: "Learn about our effective litter box odor control solutions",
+  description: "Learn about our effective Litter Box for Multiple Cats solutions",
 };
 
 const BestLitterBoxMultipleCats = () => {

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Hidden Litter Box Furniture | litterplace.com",
-  description: "Discover stylish furniture that hides your litter box while keeping it accessible",
+  description: "Some furniture pieces hide the litter box completely so it blends into the room. Take our quick quiz to find the right fit for your home.",
 };
 
 const HiddenLitterBoxFurniture = () => {

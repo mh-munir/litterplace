@@ -2,21 +2,8 @@ import EmailForm from "@/components/EmailForm";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Litter Box Odor Control Solutions | litterplace.com",
-  description: "Eliminate litter box odor with our proven solutions. Take our quiz to find the best odor control litter box for your home and keep your space fresh.",
-  keywords: ["litter box odor control", "odor eliminating litter box", "cat litter smell", "fresh litter box", "odor control solutions"],
-  openGraph: {
-    title: "Litter Box Odor Control Solutions | Eliminate Cat Litter Odor",
-    description: "Discover effective litter box odor control solutions. Take our quiz to find the perfect odor-eliminating litter box for your cat.",
-    type: "article",
-    publishedTime: "2024-01-01T00:00:00.000Z",
-    authors: ["Litter Box Solutions"],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Litter Box Odor Control Solutions",
-    description: "Eliminate litter box odor with our proven solutions and quiz recommendations.",
-  },
+  title: "Litter Box Odor Control | litterplace.com",
+  description: "Learn about our effective Litter Box Odor Control solutions",
 };
 
 const LitterBoxOdorControl = () => {
