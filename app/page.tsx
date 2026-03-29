@@ -82,10 +82,13 @@ export default function Quiz() {
                     </div>
                   ) : null}
                 </div>
-                 <ul className='max-w-xl mx-auto p-5 flex gap-4 mt-5'>
-                  <li><Link className="hover:underline text-sm text-gray-700" href="/helpful">Helpful</Link></li>
-                  <li><Link className="hover:underline text-sm text-gray-700" href="/litter-box-odor-control">litter Box Odor Control</Link></li>
-                </ul>
+                 <div className="mt-5 md:mt-10 max-w-xl mx-auto p-5 ">
+                   <h4 className="mb-2 text-lg font-medium">Helpful</h4>
+                    <ul className='md:flex gap-4'>
+                      <li><Link className="hover:underline text-md text-gray-700" href="/litter-box-odor-control">litter Box Odor Control</Link></li>
+                      <li><Link className="hover:underline text-md text-gray-700" href="/best-automatic-litter-box">Best Automatic Litter Box</Link></li>
+                    </ul>
+                 </div>
               </div>
 
               <div style={{ backgroundImage: "var(--bg-main)" }} className="bg-main-bg bg-cover bg-center bg-no-repeat min-h-screen">

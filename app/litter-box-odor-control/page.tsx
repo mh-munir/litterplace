@@ -25,11 +25,14 @@ const LitterBoxOdorControl = () => {
               <div>
                 <EmailForm source="odor" />
               </div>
-               <ul className='flex gap-4 mt-10'>
-                  <li><Link className="hover:underline text-sm text-gray-700 cursor-pointer" href="/">← Back to Home</Link></li>
-                  <li><Link className="hover:underline text-sm text-gray-700 cursor-pointer" href="/helpful">Helpful</Link></li>
-                  <li><Link className="hover:underline text-sm text-gray-700 cursor-pointer" href="/best-automatic-litter-box">Best Automatic Litter Box</Link></li>
-                </ul>
+              <Link className="hover:underline text-md text-gray-700 cursor-pointer mt-5" href="/">← Back to Home</Link>
+              <div className="mt-5 md:mt-10 max-w-xl">
+                  <h4 className="mb-2 text-lg font-medium">Helpful</h4>
+                    <ul className='flex gap-4'>
+                      <li><Link className="hover:underline text-md text-gray-700" href="/best-automatic-litter-box">Best Automatic Litter Box</Link></li>
+                      <li><Link className="hover:underline text-md text-gray-700" href="/best-litter-box-multiple-cats">Best Litter Box Multiple Cats</Link></li>
+                  </ul>
+              </div>
             </div>
           </div>
 
