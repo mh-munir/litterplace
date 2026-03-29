@@ -26,9 +26,11 @@ const HiddenLitterBoxFurniture = () => {
                 <div>
                     <EmailForm source="hidden" />
                 </div>
-                <Link href="/" className="mt-5 text-sm text-gray-700 hover:underline">
-                    ← Back to Home
-                </Link>
+                <ul className='flex gap-4 mt-10'>
+                  <li><Link className="hover:underline text-sm text-gray-700 cursor-pointer" href="/">← Back to Home</Link></li>
+                  <li><Link className="hover:underline text-sm text-gray-700 cursor-pointer" href="/helpful">Helpful</Link></li>
+                  <li><Link className="hover:underline text-sm text-gray-700 cursor-pointer" href="/stop-litter-tracking">Stop Litter Tracking</Link></li>
+                </ul>
                 </div>
               </div>
 

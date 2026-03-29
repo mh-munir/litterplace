@@ -10,3 +10,7 @@
   --bg-litterBoxSmallApartment: url('/images/litter-box-small-apartment.jpg');
   --bg-stopLitterTracking: url('/images/stop-litter-tracking.jpg');
 }
+
+.home-page--container{
+  min-height: calc(100vh - 224px);
+}

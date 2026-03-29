@@ -26,9 +26,11 @@ const BestAutomaticLitterBox = () => {
                 <div>
                     <EmailForm source="automatic" />
                 </div>
-                <Link href="/" className="mt-5 text-sm text-gray-700 hover:underline">
-                    ← Back to Home
-                </Link>
+                <ul className='flex gap-4 mt-10'>
+                  <li><Link className="hover:underline text-sm text-gray-700 cursor-pointer" href="/">← Back to Home</Link></li>
+                  <li><Link className="hover:underline text-sm text-gray-700 cursor-pointer" href="/helpful">Helpful</Link></li>
+                  <li><Link className="hover:underline text-sm text-gray-700 cursor-pointer" href="/best-litter-box-multiple-cats">Best Litter Box for Multiple Cats</Link></li>
+                </ul>
                 </div>
               </div>
 

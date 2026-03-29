@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 import { questions } from "@/data/questions";
 import { getResult } from "@/lib/quizEngine";
 import EmailGate from "./components/EmailGate";
@@ -81,6 +82,10 @@ export default function Quiz() {
                     </div>
                   ) : null}
                 </div>
+                 <ul className='max-w-xl mx-auto p-5 flex gap-4 mt-5'>
+                  <li><Link className="hover:underline text-sm text-gray-700" href="/helpful">Helpful</Link></li>
+                  <li><Link className="hover:underline text-sm text-gray-700" href="/litter-box-odor-control">litter Box Odor Control</Link></li>
+                </ul>
               </div>
 
               <div style={{ backgroundImage: "var(--bg-main)" }} className="bg-main-bg bg-cover bg-center bg-no-repeat min-h-screen">
